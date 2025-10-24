@@ -3,7 +3,7 @@ const App = () => {
 
     return (
         <div>
-            <h2>welcome to my profile</h2>
+            <h2 className="text-3xl underline">welcome to my profile</h2>
         </div>
     );
 };
