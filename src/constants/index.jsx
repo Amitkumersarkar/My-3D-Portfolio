@@ -1,212 +1,266 @@
-// ==============================
-// 🔗 Navigation Links
-// ==============================
 const navLinks = [
-    { name: "Projects", link: "#projects" },
-    { name: "Experience", link: "#experience" },
-    { name: "Skills", link: "#skills" },
-    { name: "Resume", link: "#resume" },
-    { name: "Testimonials", link: "#testimonials" },
-    { name: "Contact", link: "#contact" },
+    {
+        name: "Work",
+        link: "#work",
+    },
+    {
+        name: "Experience",
+        link: "#experience",
+    },
+    {
+        name: "Skills",
+        link: "#skills",
+    },
+    {
+        name: "Resume",
+        link: "#resume",
+    },
 ];
 
-// ==============================
-// 💡 Dynamic Words (Hero Section)
-// ==============================
 const words = [
-    { text: "Ideas", imgPath: "/images/ideas.svg" },
-    { text: "Designs", imgPath: "/images/designs.svg" },
-    { text: "Code", imgPath: "/images/code.svg" },
-    { text: "Animations", imgPath: "/images/animations.svg" },
-    { text: "Projects", imgPath: "/images/projects.svg" },
+    { text: "Ideas", imgPath: "/public/assets/resources/images/ideas.svg" },
+    { text: "Concepts", imgPath: "/public/assets/resources/images/concepts.svg" },
+    { text: "Designs", imgPath: "/public/assets/resources/images/designs.svg" },
+    { text: "Code", imgPath: "/public/assets/resources/images/code.svg" },
+    { text: "Ideas", imgPath: "/public/assets/resources/images/ideas.svg" },
+    { text: "Concepts", imgPath: "/public/assets/resources/images/concepts.svg" },
+    { text: "Designs", imgPath: "/public/assets/resources/images/designs.svg" },
+    { text: "Code", imgPath: "/public/assets/resources/images/code.svg" },
 ];
 
-// ==============================
-// 🔢 Counter Section (Stats)
-// ==============================
 const counterItems = [
-    { value: 15, suffix: "+", label: "Projects Completed" },
-    { value: 10, suffix: "+", label: "Frontend Technologies Mastered" },
-    { value: 5, suffix: "+", label: "Team Projects" },
-    { value: 3, suffix: "+", label: "Ongoing MERN Projects" },
+    { value: 15, suffix: "+", label: "Years of Experience" },
+    { value: 200, suffix: "+", label: "Satisfied Clients" },
+    { value: 108, suffix: "+", label: "Completed Projects" },
+    { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
-// ==============================
-// 🧩 Tech Logos / Partners
-// ==============================
 const logoIconsList = [
-    { imgPath: "/images/logos/react.png" },
-    { imgPath: "/images/logos/tailwindcss.svg" },
-    { imgPath: "/images/logos/daisyui.svg" },
-    { imgPath: "/images/logos/materialui.svg" },
-    { imgPath: "/images/logos/nextjs.svg" },
-    { imgPath: "/images/logos/nodejs.svg" },
-    { imgPath: "/images/logos/expressjs.svg" },
-    { imgPath: "/images/logos/mongodb.svg" },
-    { imgPath: "/images/logos/firebase.svg" },
-    { imgPath: "/images/logos/typescript.svg" },
-    { imgPath: "/images/logos/gsap.svg" },
+    {
+        imgPath: "/images/logos/company-logo-1.png",
+    },
+    {
+        imgPath: "/images/logos/company-logo-2.png",
+    },
+    {
+        imgPath: "/images/logos/company-logo-3.png",
+    },
+    {
+        imgPath: "/images/logos/company-logo-4.png",
+    },
+    {
+        imgPath: "/images/logos/company-logo-5.png",
+    },
+    {
+        imgPath: "/images/logos/company-logo-6.png",
+    },
+    {
+        imgPath: "/images/logos/company-logo-7.png",
+    },
+    {
+        imgPath: "/images/logos/company-logo-8.png",
+    },
+    {
+        imgPath: "/images/logos/company-logo-9.png",
+    },
+    {
+        imgPath: "/images/logos/company-logo-10.png",
+    },
+    {
+        imgPath: "/images/logos/company-logo-11.png",
+    },
 ];
 
-// ==============================
-// ⚙️ Abilities / Strengths
-// ==============================
 const abilities = [
     {
-        imgPath: "/images/uiux.png",
-        title: "UI/UX Precision",
-        desc: "Building clean, modern, and responsive interfaces with pixel-perfect accuracy using Tailwind & DaisyUI.",
+        imgPath: "/images/seo.png",
+        title: "Quality Focus",
+        desc: "Delivering high-quality results while maintaining attention to every detail.",
     },
     {
-        imgPath: "/images/comm.png",
-        title: "Collaborative Mindset",
-        desc: "Working well with teams using Git & GitHub, and maintaining clear communication during development.",
+        imgPath: "/images/chat.png",
+        title: "Reliable Communication",
+        desc: "Keeping you updated at every step to ensure transparency and clarity.",
     },
     {
-        imgPath: "/images/speed.png",
-        title: "Performance Optimization",
-        desc: "Ensuring smooth, fast-loading, and optimized applications using React, Axios, and lazy-loading techniques.",
-    },
-    {
-        imgPath: "/images/deploy.png",
-        title: "Deployment & Integration",
-        desc: "Deploying and maintaining apps on Firebase and Vercel with backend API integration and authentication (JWT).",
+        imgPath: "/images/time.png",
+        title: "On-Time Delivery",
+        desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
     },
 ];
 
-// ==============================
-// 🧠 Tech Stack Images
-// ==============================
 const techStackImgs = [
-    { name: "React.js", imgPath: "/images/logos/react.png" },
-    { name: "Next.js", imgPath: "/images/logos/nextjs.svg" },
-    { name: "Tailwind CSS", imgPath: "/images/logos/tailwindcss.svg" },
-    { name: "DaisyUI", imgPath: "/images/logos/daisyui.svg" },
-    { name: "Material UI", imgPath: "/images/logos/materialui.svg" },
-    { name: "TypeScript", imgPath: "/images/logos/typescript.svg" },
-    { name: "Node.js", imgPath: "/images/logos/nodejs.svg" },
-    { name: "Express.js", imgPath: "/images/logos/expressjs.svg" },
-    { name: "MongoDB", imgPath: "/images/logos/mongodb.svg" },
-    { name: "Firebase", imgPath: "/images/logos/firebase.svg" },
-    { name: "Framer Motion", imgPath: "/images/logos/framer.svg" },
-    { name: "GSAP", imgPath: "/images/logos/gsap.svg" },
-    { name: "Axios", imgPath: "/images/logos/axios.svg" },
-    { name: "JWT", imgPath: "/images/logos/jwt.svg" },
-    { name: "SSLCommerz", imgPath: "/images/logos/sslcommerz.svg" },
+    {
+        name: "React Developer",
+        imgPath: "/images/logos/react.png",
+    },
+    {
+        name: "Python Developer",
+        imgPath: "/images/logos/python.svg",
+    },
+    {
+        name: "Backend Developer",
+        imgPath: "/images/logos/node.png",
+    },
+    {
+        name: "Interactive Developer",
+        imgPath: "/images/logos/three.png",
+    },
+    {
+        name: "Project Manager",
+        imgPath: "/images/logos/git.svg",
+    },
 ];
 
-// ==============================
-// 🧊 3D Tech Stack Icons
-// ==============================
 const techStackIcons = [
     {
-        name: "React.js",
-        modelPath: "/models/react_logo.glb",
+        name: "React Developer",
+        modelPath: "/models/react_logo-transformed.glb",
         scale: 1,
         rotation: [0, 0, 0],
     },
     {
-        name: "Node.js",
-        modelPath: "/models/node_logo.glb",
-        scale: 2,
+        name: "Python Developer",
+        modelPath: "/models/python-transformed.glb",
+        scale: 0.8,
         rotation: [0, 0, 0],
     },
     {
-        name: "MongoDB",
-        modelPath: "/models/mongodb_logo.glb",
-        scale: 1.5,
+        name: "Backend Developer",
+        modelPath: "/models/node-transformed.glb",
+        scale: 5,
+        rotation: [0, -Math.PI / 2, 0],
+    },
+    {
+        name: "Interactive Developer",
+        modelPath: "/models/three.js-transformed.glb",
+        scale: 0.05,
         rotation: [0, 0, 0],
     },
     {
-        name: "Firebase",
-        modelPath: "/models/firebase_logo.glb",
-        scale: 1,
-        rotation: [0, 0, 0],
+        name: "Project Manager",
+        modelPath: "/models/git-svg-transformed.glb",
+        scale: 0.05,
+        rotation: [0, -Math.PI / 4, 0],
     },
 ];
 
-// ==============================
-// 💼 Experience Cards
-// ==============================
 const expCards = [
     {
-        review:
-            "Amit brought creativity and structure to our frontend team. His clean code and attention to design details consistently elevated our user interfaces.",
+        review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
         imgPath: "/images/exp1.png",
         logoPath: "/images/logo1.png",
-        title: "Frontend Developer (React.js)",
-        date: "June 2024 - Present",
+        title: "Frontend Developer",
+        date: "January 2023 - Present",
         responsibilities: [
-            "Developing responsive, interactive UIs using React, Tailwind, and Framer Motion.",
-            "Implementing Firebase authentication and JWT-based authorization.",
-            "Integrating REST APIs with secure and efficient Axios requests.",
+            "Developed and maintained user-facing features for the Hostinger website.",
+            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
+            "Optimized web applications for maximum speed and scalability.",
         ],
     },
     {
-        review:
-            "Amit’s MERN stack development skills helped us deploy modern and efficient applications that users love.",
+        review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
         imgPath: "/images/exp2.png",
         logoPath: "/images/logo2.png",
-        title: "MERN Stack Developer",
-        date: "2025 (Ongoing Projects)",
+        title: "Full Stack Developer",
+        date: "June 2020 - December 2023",
         responsibilities: [
-            "Developing full-stack projects with MongoDB, Express, React, and Node.js.",
-            "Using Context API and local storage for state persistence and management.",
-            "Implementing secure payment integration using SSLCommerz API.",
+            "Led the development of Docker's web applications, focusing on scalability.",
+            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
+            "Contributed to open-source projects that were used with the Docker ecosystem.",
+        ],
+    },
+    {
+        review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+        imgPath: "/images/exp3.png",
+        logoPath: "/images/logo3.png",
+        title: "React Native Developer",
+        date: "March 2019 - May 2020",
+        responsibilities: [
+            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
+            "Improved app performance and user experience through code optimization and testing.",
+            "Coordinated with the product team to implement features based on feedback.",
         ],
     },
 ];
 
-// ==============================
-// 🧾 Testimonials
-// ==============================
+const expLogos = [
+    {
+        name: "logo1",
+        imgPath: "/images/logo1.png",
+    },
+    {
+        name: "logo2",
+        imgPath: "/images/logo2.png",
+    },
+    {
+        name: "logo3",
+        imgPath: "/images/logo3.png",
+    },
+];
+
 const testimonials = [
     {
-        name: "Rahim Ahmed",
-        mentions: "@rahimdev",
+        name: "Esther Howard",
+        mentions: "@estherhoward",
         review:
-            "Amit's frontend work is consistently top-tier — smooth animations, clean code, and thoughtful design integration. Highly recommended for modern web projects!",
+            "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
         imgPath: "/images/client1.png",
     },
     {
-        name: "Sara Khan",
-        mentions: "@sarakodes",
+        name: "Wade Warren",
+        mentions: "@wadewarren",
         review:
-            "His React and Firebase integration made our project seamless. Amit’s ability to merge logic with design is impressive.",
+            "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+        imgPath: "/images/client3.png",
+    },
+    {
+        name: "Guy Hawkins",
+        mentions: "@guyhawkins",
+        review:
+            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
         imgPath: "/images/client2.png",
     },
     {
-        name: "Jahid Hasan",
-        mentions: "@jahidhasan",
+        name: "Marvin McKinney",
+        mentions: "@marvinmckinney",
         review:
-            "Dependable, creative, and detail-oriented — Amit delivers quality results every time, even under tight deadlines.",
-        imgPath: "/images/client3.png",
+            "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+        imgPath: "/images/client5.png",
+    },
+    {
+        name: "Floyd Miles",
+        mentions: "@floydmiles",
+        review:
+            "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+        imgPath: "/images/client4.png",
+    },
+    {
+        name: "Albert Flores",
+        mentions: "@albertflores",
+        review:
+            "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+        imgPath: "/images/client6.png",
     },
 ];
 
-// ==============================
-// 🧾 Resume Section (New)
-// ==============================
-const resumeLinks = [
-    {
-        name: "Download Resume (PDF)",
-        link: "https://drive.google.com/your-resume-link", // 🔗 replace with your actual Google Drive / portfolio resume link
-    },
-    {
-        name: "View on LinkedIn",
-        link: "https://www.linkedin.com/in/amitkumersarkar/",
-    },
-];
-
-// ==============================
-// 🌐 Social Media Icons
-// ==============================
 const socialImgs = [
-    { name: "github", imgPath: "/images/github.png" },
-    { name: "linkedin", imgPath: "/images/linkedin.png" },
-    { name: "x", imgPath: "/images/x.png" },
-    { name: "facebook", imgPath: "/images/fb.png" },
-    { name: "instagram", imgPath: "/images/insta.png" },
+    {
+        name: "insta",
+        imgPath: "/images/insta.png",
+    },
+    {
+        name: "fb",
+        imgPath: "/images/fb.png",
+    },
+    {
+        name: "x",
+        imgPath: "/images/x.png",
+    },
+    {
+        name: "linkedin",
+        imgPath: "/images/linkedin.png",
+    },
 ];
 
 export {
@@ -215,8 +269,8 @@ export {
     logoIconsList,
     counterItems,
     expCards,
+    expLogos,
     testimonials,
-    resumeLinks,
     socialImgs,
     techStackIcons,
     techStackImgs,

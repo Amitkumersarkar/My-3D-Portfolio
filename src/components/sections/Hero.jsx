@@ -1,4 +1,5 @@
-import words from "../../constants";
+import { words } from "../../constants";
+import Button from "../Button";
 
 const Hero = () => {
 
@@ -6,7 +7,7 @@ const Hero = () => {
     return (
         <section id="hero" className="relative overflow-hidden">
             <div className="absolute top-0 left-0 z-0">
-                <img src="/assets/resources/images/bg.png" alt="background" />
+                <img src="/public/assets/resources/images/bg.png" alt="background" />
             </div>
 
             <div className="hero-layout">
@@ -15,7 +16,7 @@ const Hero = () => {
                     <div className="flex flex-col gap-7">
                         <div className="hero-text">
                             <h1>
-                                Shaping
+                                <span className="text-pink-600">Shaping</span>
                                 <span className="slide">
                                     <span className="wrapper">
                                         {words.map((word) => (
@@ -39,6 +40,10 @@ const Hero = () => {
                             <h1>Into Real Projects</h1>
                             <h1>That Deliver Results</h1>
                         </div>
+                        <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+                            Namaste 🙏, I'm <span className="font-semibold text-pink-600"><i>Amit Sarkar</i></span> — a passionate front-end and <span className="text-blue-500 font-bold">MERN</span> Stack developer from Bangladesh who loves turning ideas into interactive experiences.
+                        </p>
+                        <Button id='button' className='md:w-80 md:h-16 w-16 h-12 ' text='See My Work'></Button>
                     </div>
                 </header>
                 {/* right side : hero 3d model */}
