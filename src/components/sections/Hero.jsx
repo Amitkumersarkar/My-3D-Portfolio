@@ -14,7 +14,7 @@ const Hero = () => {
             <div className="hero-layout">
                 {/* left side : hero content */}
                 <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
-                    <div className="flex flex-col gap-7">
+                    <div className="flex flex-col gap-5">
                         <div className="hero-text">
                             <h1>
                                 <span className="text-pink-600">Shaping</span>
@@ -41,15 +41,15 @@ const Hero = () => {
                             <h1>Into Real Projects</h1>
                             <h1>That Deliver Results</h1>
                         </div>
-                        <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                            Namaste 🙏, I'm <span className="font-semibold text-pink-600"><i>Amit Sarkar</i></span> — a passionate front-end and <span className="text-blue-500 font-bold">MERN</span> Stack developer from Bangladesh who loves turning ideas into interactive experiences.
+                        <p className="text-white-50 md:text-xl relative text-wrap z-10 pointer-events-none">
+                            Namaste 🙏, I'm <span className="font-semibold text-pink-600"><i>Amit Sarkar</i></span> — a passionate front-end and <span className="text-blue-500 font-bold">MERN</span> Stack <br /> developer from Bangladesh who loves turning ideas into interactive experiences.
                         </p>
                         <Button id='button' className='md:w-80 md:h-16 w-16 h-12 ' text='See My Work'></Button>
                     </div>
                 </header>
                 {/* right side : hero 3D model */}
                 <figure>
-                    <div className="hero-3d-layout border-red-200 border-2">
+                    <div className="hero-3d-layout mt-5">
                         <HeroExperience></HeroExperience>
                     </div>
                 </figure>
