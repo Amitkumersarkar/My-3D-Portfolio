@@ -18,14 +18,14 @@ const navLinks = [
 ];
 
 const words = [
-    { text: "Ideas", imgPath: "/public/assets/resources/images/ideas.svg" },
-    { text: "Concepts", imgPath: "/public/assets/resources/images/concepts.svg" },
-    { text: "Designs", imgPath: "/public/assets/resources/images/designs.svg" },
-    { text: "Code", imgPath: "/public/assets/resources/images/code.svg" },
-    { text: "Ideas", imgPath: "/public/assets/resources/images/ideas.svg" },
-    { text: "Concepts", imgPath: "/public/assets/resources/images/concepts.svg" },
-    { text: "Designs", imgPath: "/public/assets/resources/images/designs.svg" },
-    { text: "Code", imgPath: "/public/assets/resources/images/code.svg" },
+    { text: "Ideas", imgPath: "/public/images/ideas.svg" },
+    { text: "Concepts", imgPath: "/public/images/concepts.svg" },
+    { text: "Designs", imgPath: "/public/images/designs.svg" },
+    { text: "Code", imgPath: "/public/images/code.svg" },
+    { text: "Ideas", imgPath: "/public/images/ideas.svg" },
+    { text: "Concepts", imgPath: "/public/images/concepts.svg" },
+    { text: "Designs", imgPath: "/public/images/designs.svg" },
+    { text: "Code", imgPath: "/public/images/code.svg" },
 ];
 
 const counterItems = [
