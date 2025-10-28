@@ -47,9 +47,9 @@ const Hero = () => {
                         <Button id='button' className='md:w-80 md:h-16 w-16 h-12 ' text='See My Work'></Button>
                     </div>
                 </header>
-                {/* right side : hero 3D model */}
+                {/* right side  hero 3D model */}
                 <figure>
-                    <div className="hero-3d-layout mt-5">
+                    <div className="hero-3d-layout">
                         <HeroExperience></HeroExperience>
                     </div>
                 </figure>
